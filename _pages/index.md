@@ -5,17 +5,15 @@ id: home
 permalink: /
 ---
 
-# Welcome! 🌱
+# 개발하는 브로콜리의 디지털 정원 🥦
 
 <p style="padding: 3em 1em; background: #f5f7ff; border-radius: 4px;">
-  Take a look at <span style="font-weight: bold">[[Your first note]]</span> to get started on your exploration.
+  현재 진행중인 <span style="font-weight: bold">[[프로젝트]]</span>의 기획서입니다!
 </p>
 
-This digital garden template is free, open-source, and [available on GitHub here](https://github.com/maximevaillancourt/digital-garden-jekyll-template).
+개발 외에도 이것 저것 다 해보는 개발자입니다. [깃허브 바로가기](https://github.com/MEKBANSUKOZINGER)
 
-The easiest way to get started is to read this [step-by-step guide explaining how to set this up from scratch](https://maximevaillancourt.com/blog/setting-up-your-own-digital-garden-with-jekyll).
-
-<strong>Recently updated notes</strong>
+<strong>최근에 쓴 문서들</strong>
 
 <ul>
   {% assign recent_notes = site.notes | sort: "last_modified_at_timestamp" | reverse %}
